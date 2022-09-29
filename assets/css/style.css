@@ -8,6 +8,8 @@
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .header .top-nav-strip {
@@ -18,8 +20,8 @@ body {
 }
 
 .header .top-nav-strip ul {
-  margin: 0%;
-  padding: 0 12px;
+  margin: 0;
+  padding: 0 10px;
   display: flex;
   align-items: center;
 }
@@ -35,7 +37,7 @@ body {
   text-transform: uppercase;
 }
 .header .top-nav-strip ul li a img {
-  width: 20px;
+  width: 23px;
 }
 
 .header .top-nav-strip ul li input {
