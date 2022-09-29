@@ -1,0 +1,49 @@
+/* #33A137 = green
+#1F1F1F
+#FFFFFF
+#E83A3A
+#EBECED
+*/
+
+body {
+  margin: 0;
+}
+
+.header .top-nav-strip {
+  background-color: #33a137;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .top-nav-strip ul {
+  margin: 0%;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+}
+
+.header .top-nav-strip ul li {
+  list-style-type: none;
+  margin: 8px;
+}
+
+.header .top-nav-strip ul li a {
+  text-decoration: none;
+  color: azure;
+  text-transform: uppercase;
+}
+.header .top-nav-strip ul li a img {
+  width: 20px;
+}
+
+.header .top-nav-strip ul li input {
+  background-color: transparent;
+  border: 0;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.header .top-nav-strip ul li input:focus-visible {
+  outline: none;
+}
