@@ -28,7 +28,7 @@ body {
 
 .header .top-nav-strip ul li {
   list-style-type: none;
-  margin: 10px 15px 5px;
+  margin: 10px 20px 9px 4px;
 }
 
 .header .top-nav-strip ul li a {
@@ -37,13 +37,20 @@ body {
   text-transform: uppercase;
 }
 
+.more-nav-item {
+  margin: 30px;
+}
+
 .new-item {
   color: aliceblue;
   background-color: #e83b3b;
   padding: 1px 4px 1px 4px;
-  border-radius: 3px;
+  border-radius: 4px;
   font-weight: normal;
   font-size: 9.5px;
+  position: fixed;
+  top: 16.5px;
+  left: 645px;
 }
 .header .top-nav-strip ul li a img {
   width: 23px;
@@ -70,13 +77,13 @@ body {
 .top-primary-nav ul {
   display: flex;
   align-items: center;
-  margin: 0px;
-  padding: 0px 12px;
+  margin: 0;
+  padding: 0 10px;
 }
 
 .top-primary-nav ul li {
   list-style-type: none;
-  margin: 10px 15px 5px;
+  margin: 10px 20px 9px 4px;
   font-weight: normal;
 }
 
