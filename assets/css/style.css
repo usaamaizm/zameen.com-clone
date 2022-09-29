@@ -1,5 +1,5 @@
 /* #33A137 = green
-#1F1F1F
+#1F1F1F = light grey
 #FFFFFF
 #E83A3A
 #EBECED
@@ -28,13 +28,22 @@ body {
 
 .header .top-nav-strip ul li {
   list-style-type: none;
-  margin: 8px;
+  margin: 10px 15px 5px;
 }
 
 .header .top-nav-strip ul li a {
   text-decoration: none;
   color: azure;
   text-transform: uppercase;
+}
+
+.new-item {
+  color: aliceblue;
+  background-color: #e83b3b;
+  padding: 1px 4px 1px 4px;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 9.5px;
 }
 .header .top-nav-strip ul li a img {
   width: 23px;
@@ -49,4 +58,38 @@ body {
 
 .header .top-nav-strip ul li input:focus-visible {
   outline: none;
+}
+
+.top-primary-nav {
+  background-color: #f7f7f7;
+  padding: 0px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-primary-nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px 12px;
+}
+
+.top-primary-nav ul li {
+  list-style-type: none;
+  margin: 10px 15px 5px;
+  font-weight: normal;
+}
+
+.top-primary-nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #848493;
+}
+
+.top-primary-nav ul li a img {
+  width: 140px;
+}
+
+.main .search-area img {
+  width: 100%;
 }
