@@ -63,6 +63,15 @@ body {
   border: 2px solid white;
 }
 
+.header .top-nav-strip ul li button {
+  background-color: #f7f7f7;
+  border-radius: 0.4rem;
+  color: black;
+  border-color: white;
+  padding: 4px 3px 4px 15px;
+  font-weight: 1.19rem;
+}
+
 .header .top-nav-strip ul li input:focus-visible {
   outline: none;
 }
