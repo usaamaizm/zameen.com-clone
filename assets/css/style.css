@@ -8,20 +8,21 @@
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 15px;
 }
 
+/* First Navbar  */
 .header .top-nav-strip {
   background-color: #33a137;
-  padding: 0 24px;
+  padding: 0px 12px;
   display: flex;
   justify-content: space-between;
 }
 
 .header .top-nav-strip ul {
   margin: 0;
-  padding: 0 10px;
+  padding: 0 10px 0 10px;
   display: flex;
   align-items: center;
 }
@@ -49,8 +50,8 @@ body {
   font-weight: normal;
   font-size: 9.5px;
   position: fixed;
-  top: 16.5px;
-  left: 645px;
+  top: 17.5px;
+  left: 633px;
 }
 .header .top-nav-strip ul li a img {
   width: 23px;
@@ -76,9 +77,10 @@ body {
   outline: none;
 }
 
+/* Secondry Navbar  */
 .top-primary-nav {
   background-color: #f7f7f7;
-  padding: 0px 24px;
+  padding: 0px 12px;
   display: flex;
   justify-content: space-between;
 }
